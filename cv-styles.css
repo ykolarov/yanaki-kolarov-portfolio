@@ -19,13 +19,13 @@ header {
     text-align: center;
 }
 
-header a {
+header a, body a {
     color: #f39c12;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.3s ease;
 }
 
-header a:hover {
+header a:hover, body a:hover {
     color: #e67e22;
 }
   
